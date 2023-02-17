@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 router.get('/about', function(req, res, next) {
   res.render('', { title: 'Express' });
 });
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+router.get('/gmap', function(req, res, next) {
+  res.render('gmap', { title: 'Google Maps' });
 });
 module.exports = router;
